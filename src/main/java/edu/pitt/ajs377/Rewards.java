@@ -26,6 +26,7 @@ public class Rewards {
         break;
       } catch (InputMismatchException e) {
         System.out.println("Please enter a number.");
+        keyboard.nextLine();
       }
     }
     stars = (int) dollars * STARS_PER_DOLLAR;
